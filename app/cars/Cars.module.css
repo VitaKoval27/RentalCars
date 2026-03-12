@@ -1,0 +1,35 @@
+.container {
+  max-width: 1216px; 
+  margin: 0 auto;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.catalog {
+  width: 100%;
+  min-height: 400px; 
+}
+
+.noResults {
+  text-align: center;
+  font-size: 18px;
+  color: #121417;
+  margin-top: 100px;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Адаптивність: на мобільних зменшуємо відступи */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 12px;
+    gap: 30px;
+  }
+}

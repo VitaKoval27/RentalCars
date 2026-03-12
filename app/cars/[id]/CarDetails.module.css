@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 84px 120px; 
+    gap:72px;  
+    justify-content: space-between;
+
+}
+
+
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+   
+}
+
+.imageWrapper {
+    border-radius: 14px;
+    overflow: hidden;
+  
+}
+
+.mainImage {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.sidebar{
+    margin-top: 40px;
+
+}
+
+.rightColumn{
+   flex: 1;              
+    display: flex;        
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.titleWrapper{
+ display:inline-flex ;
+ justify-content: flex-start;
+ align-items:baseline;
+ gap:16px;
+ margin-bottom: 8px;
+ flex-wrap: wrap;
+}
+
+.title{
+   font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+text-align: center;
+color: var(--main);
+}
+.idLabel{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: var(--gray);
+}
+.metaInfo{
+   display: inline-flex;
+   flex-wrap: wrap;
+   gap:16px;
+   margin-bottom: 32px;
+}
+
+
+.price{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+color: var(--button);
+margin-bottom: 32px;
+}
+
+.description{
+
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: var(--main);
+
+}
+
+
+.section {
+   margin-top: auto;     
+    padding-top: 24px;
+}
+
+.sectionLabel {
+   font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+color: var(--main);
+margin-bottom: 32px;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+    gap:16px
+}
+
+.listItem{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: var(--main);
+}
+
+.listItem{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: var(--main);
+display: flex;          
+align-items: center;    
+gap: 8px;               
+
+}
+
+
+.listItem svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0; 
+    margin-top: 2px; }
+
