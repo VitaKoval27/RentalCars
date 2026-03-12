@@ -6,6 +6,12 @@ import CarsClient from "./Cars.client"
 export const metadata: Metadata = {
     title: "Car Catalog | Rental App",
     description: "Choose your best car for rental",
+    openGraph: {
+        title: "Rental car",
+        description: "find your rental car easy",
+        images: [{ url: "../public/hero.jpg" }],
+        url: "https://rental-cars-taupe.vercel.app/cars"
+    }
 };
 
 export default async function CarsPage() {

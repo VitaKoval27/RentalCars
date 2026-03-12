@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: CarPageProps): Promise<Metada
             title: `${car.brand} ${car.model} | Car Rental`,
             description: car.description,
             images: [{ url: car.img }],
+            url: `https://rental-cars-taupe.vercel.app/cars/${car.id}`
         }
     };
 }

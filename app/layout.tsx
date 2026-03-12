@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Rental car",
     description: "find your rental car easy",
     images: [{ url: "../public/hero.jpg" }],
-    // url: ""
+    url: "https://rental-cars-taupe.vercel.app/"
   }
 };
 
