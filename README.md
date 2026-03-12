@@ -1,41 +1,54 @@
-# RentalCar — Professional Vehicle Booking Platform 🚗
+# 🚗 Rental Car — Vehicle Rental Service
 
-A high-performance car rental application built with **Next.js 16** and **React 19**. This project showcases a modern approach to web development, featuring a robust tech stack, complex state management, and a highly responsive user interface.
+A modern web application for searching and booking rental cars. Users can browse a comprehensive catalog, filter vehicles by brand, price, and mileage, and manage their personal list of favorite cars.
 
-## 🚀 Tech Stack & Core Technologies
+---
 
-- **Framework:** [Next.js 16](https://nextjs.org/) (App Router & Server Components)
-- **Library:** [React 19](https://react.dev/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** Tailwind CSS 4 & CSS Modules
-- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/) (Lightweight & scalable global state)
+## 🌟 Key Features
 
-## 📦 Key Libraries & Integration
+- **Car Catalog**: Browse a wide range of vehicles with detailed specifications.
+- **Backend Pagination**: Efficient data loading (12 cards per page) using server-side pagination to ensure high performance.
+- **Advanced Filtering**: Search by car brand, hourly rental price, and specific mileage range.
+- **Favorites System**: Add cars to a personal favorites list with persistent storage (LocalStorage).
+- **Detailed Specifications**: Modal windows providing full car details and rental conditions.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
 
-### 🛠 Data Fetching & Networking
-- **[TanStack Query v5](https://tanstack.com/query/latest):** Advanced server-state management, caching, and data synchronization.
-- **Axios:** For robust HTTP requests and API communication.
+---
 
-### 📝 Form Handling & UI Components
-- **[Formik](https://formik.org/) & [Yup](https://github.com/jquense/yup):** Powerful duo for form state management and schema-based validation.
-- **React Datepicker:** Custom date selection for booking intervals.
-- **React Select:** Enhanced dropdown components for car filtering.
-- **React Paginate:** Smooth navigation through car listings.
+## 🛠 Tech Stack
 
-### 🎨 UX & Feedback
-- **React Hot Toast:** Elegant, non-blocking notifications for user actions.
-- **React Icons:** A comprehensive library for scalable iconography.
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **State Management**: [Zustand](https://docs.pmnd.rs/zustand/)
+- **Data Fetching**: [Axios](https://axios-http.com/) & [TanStack Query](https://tanstack.com/query/latest)
+- **Styling**: CSS Modules
+- **Icons**: React Icons
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## ✨ Core Functionality
+---
 
-- **Dynamic Car Catalog:** High-speed browsing with advanced filtering and pagination.
-- **Detailed Car View:** Comprehensive display of vehicle specs, pricing, and rental terms.
-- **Advanced Booking System:** A fully validated form with date picking and instant feedback.
-- **Responsive Layout:** Mobile-First architecture optimized for all device breakpoints.
-- **Performance:** Leveraging Next.js 16 features for optimal loading speeds and SEO.
-
-## 🛠 Installation & Local Development
+## 🚀 Installation & Setup
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/VitaKoval27/RentalCars.git](https://github.com/VitaKoval27/RentalCars.git)
+   
+2 Navigate to the project directory:
+cd RentalCars   
+3 Install dependencies: npm i 
+4 Environment Variables: Create a .env.local file in the root directory and add: NEXT_PUBLIC_API_URL=[https://car-rental-api.goit.global](https://car-rental-api.goit.global)
+5 Start the development server: npm run dev
+
+📖 Usage
+Catalog Page: Use the filters at the top to find the perfect car.
+Pagination: Click the "Load more" button to fetch the next set of vehicles from the server.
+Details: Click "Learn more" on any car card to see full technical specs and rental conditions.
+Favorites: Click the heart icon to save a car. Access your saved list anytime via the Favorites page.
+
+👤 Author
+Vita Koval
+GitHub: @VitaKoval27
+This project was developed as part of the GoIT educational course.
+
+🔗 Project Links
+Live Demo: https://rental-cars-taupe.vercel.app/
+API Documentation: GoIT Car Rental API
