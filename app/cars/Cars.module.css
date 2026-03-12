@@ -1,7 +1,8 @@
 .container {
-  max-width: 1216px; 
+  max-width: 1440px;
+  width:100%; 
   margin: 0 auto;
-  padding: 40px 16px;
+  padding: 84px 120px;
   display: flex;
   flex-direction: column;
   gap: 50px;

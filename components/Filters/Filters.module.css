@@ -1,10 +1,11 @@
 .filterWrapper {
+  max-width: 1440px;
+  width:100%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  gap: 18px; 
-  
+  gap: 18px;  
 }
 
 .fieldGroup {
@@ -99,6 +100,7 @@
   font-weight: 500;
   color: var(--main);
   outline: none;
+  margin: 0 auto;
 }
 
 .mileageContainer {

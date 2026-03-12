@@ -16,12 +16,13 @@ const manrope = Manrope({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rental-cars-taupe.vercel.app"),
   title: "Rental Car",
   description: "find your rental car easy",
   openGraph: {
     title: "Rental car",
     description: "find your rental car easy",
-    images: [{ url: "../public/hero.jpg" }],
+    images: [{ url: "/hero.jpg" }],
     url: "https://rental-cars-taupe.vercel.app/"
   }
 };

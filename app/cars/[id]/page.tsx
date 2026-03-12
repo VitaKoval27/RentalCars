@@ -1,4 +1,4 @@
-import { getSingleCarServer } from "@/lib/serverApi"; // Твоя функція запиту
+import { getSingleCarServer } from "@/lib/serverApi";
 import CarDetailsClient from "./CarDetails.client";
 import { HydrationBoundary, dehydrate, QueryClient } from "@tanstack/react-query";
 import { Metadata } from "next";
@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: CarPageProps): Promise<Metada
     const car = await getSingleCarServer(id);
 
     return {
+        metadataBase: new URL("https://rental-cars-taupe.vercel.app"),
         title: `${car.brand} ${car.model} - Rent now`,
         description: `Rent ${car.brand} ${car.model} (${car.year}) for only ${car.rentalPrice}$/day. Check conditions and details.`,
         openGraph: {
