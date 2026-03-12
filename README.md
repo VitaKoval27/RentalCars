@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RentalCar — Professional Vehicle Booking Platform 🚗
 
-## Getting Started
+A high-performance car rental application built with **Next.js 16** and **React 19**. This project showcases a modern approach to web development, featuring a robust tech stack, complex state management, and a highly responsive user interface.
 
-First, run the development server:
+## 🚀 Tech Stack & Core Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router & Server Components)
+- **Library:** [React 19](https://react.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** Tailwind CSS 4 & CSS Modules
+- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/) (Lightweight & scalable global state)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Key Libraries & Integration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🛠 Data Fetching & Networking
+- **[TanStack Query v5](https://tanstack.com/query/latest):** Advanced server-state management, caching, and data synchronization.
+- **Axios:** For robust HTTP requests and API communication.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📝 Form Handling & UI Components
+- **[Formik](https://formik.org/) & [Yup](https://github.com/jquense/yup):** Powerful duo for form state management and schema-based validation.
+- **React Datepicker:** Custom date selection for booking intervals.
+- **React Select:** Enhanced dropdown components for car filtering.
+- **React Paginate:** Smooth navigation through car listings.
 
-## Learn More
+### 🎨 UX & Feedback
+- **React Hot Toast:** Elegant, non-blocking notifications for user actions.
+- **React Icons:** A comprehensive library for scalable iconography.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Core Functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Dynamic Car Catalog:** High-speed browsing with advanced filtering and pagination.
+- **Detailed Car View:** Comprehensive display of vehicle specs, pricing, and rental terms.
+- **Advanced Booking System:** A fully validated form with date picking and instant feedback.
+- **Responsive Layout:** Mobile-First architecture optimized for all device breakpoints.
+- **Performance:** Leveraging Next.js 16 features for optimal loading speeds and SEO.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Installation & Local Development
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/VitaKoval27/RentalCars.git](https://github.com/VitaKoval27/RentalCars.git)
